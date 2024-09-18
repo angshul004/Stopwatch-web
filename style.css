@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color:antiquewhite;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.timer-display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* buttons */
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#reset:hover{
+    color: white;
+    background-color: red;
+}
+#pause:hover{
+    color:white;
+    background-color: blueviolet;
+}
+#start:hover{
+    color: white;
+    background-color: green;
+}
+#lap:hover{
+    color: white;
+    background-color:maroon;
+}
+
